@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Farhan Info Page</title>
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navigationbar">
+            <ul>
+                <li><a href="#home"><b>Home</b></a></li>
+                <li><a href="#personalinfo"><b>Personal Information</b></a></li>
+                <li><a href="#performances"><b>Performances</b></a></li>
+                <li><a href="#achievements"><b>Achievements</b></a></li>
+                <li><a href="#hobbies"><b>Hobbies</b></a></li>
+            </ul>
+        </nav>
+        <section id="home">
+            <div class="main">
+                <h1 class="headings"><strong>MD. AHNAF FARHAN</strong></h1>
+                <p class="course"><br><br><br><br><br><br><br><br><br>CSE391<br><a href="https://piazza.com/class/l8fcwp0qxsv615" target="_blank"><img src="unnamed.png" height=100 alt="Piazza"></a><br>Click the icon for course discussions</p>
+
+            </div>
+        </section>
+        <section id="personalinfo">
+            <h1 class="headings">PERSONAL INFORMATION</h1>
+            <div id="pic">
+                <img src ="ss.jpg" alt="Profile Photo">
+                <table class="table">
+                    <tr><td><b>Country</b></td><td>Bangladesh</td></tr>
+                    <tr><td><b>Date of Birth</b></td><td>March 31, 2002</td></tr>
+                    <tr><td><b>Institution</b></td><td><a href = "https://www.bracu.ac.bd" target="_blank">Brac University</a></td></tr>
+                    <tr><td><b>Favourite Quote</b></td><td><i>Winners are not those who never fail,<br>but those who never quit.</i></td></tr>
+                </table>
+            </div>
+        </section>
+        <section id="performances">
+            <h1 class="headings">PERFORMANCES</h1>
+            <div class="gallery">
+                <img src = "1.jpg" alt="First Picture">
+                <img src = "2.jpg" alt="Second Picture">
+                <img src = "3.jpg" alt="Third Picture">
+                <img src = "4.jpg" alt="Fourth Picture">
+                <img src = "5.jpg" alt="Fifth Picture">
+                <img src = "6.jpg" alt="Sixth Picture">
+            </div>
+        </section>
+        <section id="achievements">
+            <h1 class="headings">ACHIEVEMENTS</h1>
+            <div id="pic2">
+                <img src="ac.jpeg" alt="Achievement picture">
+                <div id="description">
+                    <p>
+                        I was able to complete an internship at The City Bank Ltd after my first year of studies in university. I was also awarded as one of the best interns of City Bank. Moreover, I got the opportunity
+                        to become an assistant teacher of Information and Communication Technology at St. Joseph Higher Secondary School.
+                    </p>
+                    <br>
+                    <p>
+                        Science has always attracted me in every possible way. My research of producing electricity through airplane pressure
+                        earned national and international recognition. I also achieved many inter-school and inter-college prizes doing scientific projects. 
+                        Multimedia presentation is also a thing of joy for me.
+
+                    </p>
+                    <br>
+                    <p>
+                        Besides, I have been practising music since 2010. I have also participated in many musical competitions and achieved some prizes in singing competition, instrumental competition and band competition.
+
+                        Last but not the least, I also played for the school baskteball team and won the national award back in 2016.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="hobbies">
+            <h1 class="headings">HOBBIES</h1>
+            <div id="list">
+                <ol>
+                    <li>Cooking</li>
+                    <li>Coin Collecting</li>
+                    <li>Singing - Click on the folllowing songs to listen to
+                        <ul>
+                            <li><a href="https://www.youtube.com/watch?v=hbQn3wvPHUo" target="_blank">Ekhono || Black</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=eWz66a2QlYs" target="_blank">Bhalobasha Baki || Popeye</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=GSDw4kiCg0w" target="_blank">Tum Mile</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=rcTtHxOXzpw" target="_blank">Bhenge Porona Ebhabe || Pritom Hasan</a></li>
+                            <li><a href="https://www.youtube.com/watch?v=f-IDEKOoClY" target="_blank">Jekhane Shimanto Tomar || Kumar Biswajit</a></li>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+        </section>
+        <script>
+            if (Date.parse(document.lastModified) != 0)
+                document.write('<p><hr><small><i>Last modified: '+ document.lastModified+ '</i></small>');
+        </script>
+        <p id="demo"></p>
+
+        <script>
+        document.getElementById("demo").innerHTML = 
+        "Page Location:<br>" + window.location.href;
+        </script>
+        
+    </body>
+</html>
